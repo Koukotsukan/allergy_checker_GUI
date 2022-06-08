@@ -18,61 +18,65 @@ allergens = []
 def allergens_picker_1():
     allergens.append('egg')
     print(allergens)
-    messagebox.showinfo("Success", "Added egg")
+    # messagebox.showinfo("Success", "Added egg")
+    allergen_button_1.configure(bg="green")
 
 
 def allergens_picker_2():
     allergens.append("seafood")
     print(allergens)
-    messagebox.showinfo("Success", "Added seafood")
-
+    # messagebox.showinfo("Success", "Added seafood")
+    allergen_button_2.configure(bg="green")
 
 def allergens_picker_3():
     allergens.append("crustacean")
     print(allergens)
-    messagebox.showinfo("Success", "Added crustacean")
-
+    # messagebox.showinfo("Success", "Added crustacean")
+    allergen_button_3.configure(bg="green")
 
 def allergens_picker_4():
     allergens.append("peanut")
     print(allergens)
-    messagebox.showinfo("Success", "Added peanut")
-
+    # messagebox.showinfo("Success", "Added peanut")
+    allergen_button_4.configure(bg="green")
 
 def allergens_picker_5():
     allergens.append("tree nut")
     print(allergens)
-    messagebox.showinfo("Success", "tree nut")
+    # messagebox.showinfo("Success", "tree nut")
+    allergen_button_5.configure(bg="green")
 
 
 def allergens_picker_6():
     allergens.append("milk")
     print(allergens)
-    messagebox.showinfo("Success", "Added milk")
-
+    # messagebox.showinfo("Success", "Added milk")
+    allergen_button_6.configure(bg="green")
 
 def allergens_picker_7():
     allergens.append("gluten")
     print(allergens)
-    messagebox.showinfo("Success", "Added gluten")
-
+    # messagebox.showinfo("Success", "Added gluten")
+    allergen_button_7.configure(bg="green")
 
 def allergens_picker_8():
     allergens.append("sesame")
     print(allergens)
-    messagebox.showinfo("Success", "Added sesame")
-
+    # messagebox.showinfo("Success", "Added sesame")
+    allergen_button_8.configure(bg="green")
 
 def allergens_picker_9():
     allergens.append("celery")
     print(allergens)
-    messagebox.showinfo("Success", "Added celery")
+    # messagebox.showinfo("Success", "Added celery")
+    allergen_button_9.configure(bg="green")
 
 
 def allergens_picker_10():
     allergens.append("haram")
     print(allergens)
-    messagebox.showinfo("Success", "Added haram")
+    # messagebox.showinfo("Success", "Added haram")
+    allergen_button_10.configure(bg="green")
 
 
 def check_button():
