@@ -16,67 +16,93 @@ allergens = []
 
 
 def allergens_picker_1():
-    allergens.append('egg')
-    print(allergens)
-    # messagebox.showinfo("Success", "Added egg")
-    allergen_button_1.configure(bg="green")
+    if 'egg' in allergens:
+        allergens.remove('egg')
+        allergen_button_1.configure(bg='white')
+    else:
+        allergens.append('egg')
+        allergen_button_1.configure(bg="green")
 
 
 def allergens_picker_2():
-    allergens.append("seafood")
-    print(allergens)
-    # messagebox.showinfo("Success", "Added seafood")
-    allergen_button_2.configure(bg="green")
+    if 'seafood' in allergens:
+        allergens.remove('seafood')
+        allergen_button_2.configure(bg='white')
+    else:
+        allergens.append('seafood')
+        allergen_button_2.configure(bg="green")
+
 
 def allergens_picker_3():
-    allergens.append("crustacean")
-    print(allergens)
-    # messagebox.showinfo("Success", "Added crustacean")
-    allergen_button_3.configure(bg="green")
+    if 'crustacean' in allergens:
+        allergens.remove('crustacean')
+        allergen_button_3.configure(bg='white')
+    else:
+        allergens.append('crustacean')
+        allergen_button_3.configure(bg="green")
+
 
 def allergens_picker_4():
-    allergens.append("peanut")
-    print(allergens)
-    # messagebox.showinfo("Success", "Added peanut")
-    allergen_button_4.configure(bg="green")
+    if 'peanut' in allergens:
+        allergens.remove('peanut')
+        allergen_button_4.configure(bg='white')
+    else:
+        allergens.append('peanut')
+        allergen_button_4.configure(bg="green")
+
 
 def allergens_picker_5():
-    allergens.append("tree nut")
-    print(allergens)
-    # messagebox.showinfo("Success", "tree nut")
-    allergen_button_5.configure(bg="green")
+    if 'tree nut' in allergens:
+        allergens.remove('tree_nut')
+        allergen_button_5.configure(bg='white')
+    else:
+        allergens.append('tree_nut')
+        allergen_button_5.configure(bg="green")
 
 
 def allergens_picker_6():
-    allergens.append("milk")
-    print(allergens)
-    # messagebox.showinfo("Success", "Added milk")
-    allergen_button_6.configure(bg="green")
+    if 'milk' in allergens:
+        allergens.remove('milk')
+        allergen_button_6.configure(bg='white')
+    else:
+        allergens.append('milk')
+        allergen_button_6.configure(bg="green")
+
 
 def allergens_picker_7():
-    allergens.append("gluten")
-    print(allergens)
-    # messagebox.showinfo("Success", "Added gluten")
-    allergen_button_7.configure(bg="green")
+    if 'gluten' in allergens:
+        allergens.remove('gluten')
+        allergen_button_7.configure(bg='white')
+    else:
+        allergens.append('gluten')
+        allergen_button_7.configure(bg="green")
+
 
 def allergens_picker_8():
-    allergens.append("sesame")
-    print(allergens)
-    # messagebox.showinfo("Success", "Added sesame")
-    allergen_button_8.configure(bg="green")
+    if 'sesame' in allergens:
+        allergens.remove('sesame')
+        allergen_button_8.configure(bg='white')
+    else:
+        allergens.append('sesame')
+        allergen_button_8.configure(bg="green")
+
 
 def allergens_picker_9():
-    allergens.append("celery")
-    print(allergens)
-    # messagebox.showinfo("Success", "Added celery")
-    allergen_button_9.configure(bg="green")
+    if 'celery' in allergens:
+        allergens.remove('celery')
+        allergen_button_9.configure(bg='white')
+    else:
+        allergens.append('celery')
+        allergen_button_9.configure(bg="green")
 
 
 def allergens_picker_10():
-    allergens.append("haram")
-    print(allergens)
-    # messagebox.showinfo("Success", "Added haram")
-    allergen_button_10.configure(bg="green")
+    if 'haram' in allergens:
+        allergens.remove('haram')
+        allergen_button_10.configure(bg='white')
+    else:
+        allergens.append('haram')
+        allergen_button_10.configure(bg="green")
 
 
 def check_button():
